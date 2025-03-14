@@ -70,7 +70,7 @@ SC035::Send "/"
 ; SC073 key - backslash/underscore key
 SC073::Send "\"
 +SC073::Send "_"
-
-; SC029 key - "Half-width" and "full-width" key
-SC029::Send "{SC138}"  ; left alt key (SC=138)
 #HotIf  ; End of condition block
+
+; CapsLock key - send SC138 (left Alt key) for Korean mode
+CapsLock::Send "{SC138}"
