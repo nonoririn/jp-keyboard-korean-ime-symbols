@@ -71,6 +71,6 @@ SC035::Send "/"
 SC073::Send "\"
 +SC073::Send "_"
 
-; C0029 key - "Half-width" and "full-width" key
-sc029::Send "{vk15sc138}"  ; left alt key(VK=15, SC=138)
+; SC029 key - "Half-width" and "full-width" key
+SC029::Send "{SC138}"  ; left alt key (SC=138)
 #HotIf  ; End of condition block
